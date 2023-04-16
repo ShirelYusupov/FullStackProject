@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1,user-scalable=0" />
+		<title>Refael David Hotel | Success</title>
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+		
+        <!--CSS Stylesheets-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="css/contact.css" rel="stylesheet" type="text/css">
+
+        <!--Font Awesome-->
+        <script defer src="https://kit.fontawesome.com/4c0eefdf49.js" crossorigin="anonymous"></script>
+        
+        <!--Bootstrap Scripts-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+        <!--Logo Navbar-->
+        <link href="images/icon.png" rel="icon">
+      
+	</head>
+
+<%- include('partials/header') %>
+
+        <div class="vh-100 d-flex justify-content-center align-items-center">
+            <div class="col-md-4">
+                <div class="border border-3 border-success"></div>
+                <div class="card  bg-white shadow p-5">
+                    <div class="mb-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                            fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                        </svg>
+                    </div>
+                    <div class="text-center">
+                        <h1>You've been successfully signed up to the newsletter!</h1>
+                        <p>You are now entitled to a 10% discount on your next order </p>
+                        <a href="/"><button class="btn btn-outline-success">Back Home</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<%- include('partials/footer') %>

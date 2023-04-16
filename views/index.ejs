@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1,user-scalable=0" />
+		<title>Refael David Hotel | Home page</title>
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+		
+        <!--CSS Stylesheets-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="css/index_page.css" rel="stylesheet" type="text/css">
+
+        <!--Font Awesome-->
+        <script defer src="https://kit.fontawesome.com/4c0eefdf49.js" crossorigin="anonymous"></script>
+        
+        <!--Bootstrap Scripts-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+        <!--Logo Navbar-->
+        <link href="images/icon.png" rel="icon">
+	</head>
+  
+<%- include('partials/header') %>
+
+            <div class="view" style="background-image: url('images/hotel_homepage.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;" >
+                <!-- Mask & flexbox options-->
+                <div class="mask rgba-black-light align-items-center">
+                <!-- Content -->
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-12 mb-4 white-text text-center">
+                        <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>REFAEL DAVID HOTEL</strong></h1>
+                        <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                        <p class="description mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Experience the beauty and serenity of south Israel scenic hill country. Refael David is an elegant, chic hotel that stands on a scenic plot of an acre of land, surrounded by a stunning landscape.
+                            The uniquely designed resort blends well with nature.</strong></p>
+                        <a type="button" class="btn booking btn-outline-light wow fadeInDown" data-wow-delay="0.4s">BOOK NOW</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>  
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4 class="title"><em>PRIVATE DINING ROOM</em></h4>
+                        <p class="text"><em>Located in the Villa building, the Private Dining Room is well located for privacy and quiet solitude. With an excellent vantage point, French doors open onto a small terrace overlooking the restaurants pavilion while the windows face the citrus garden, making the private dining room feel private but still allows for the bustling vibe of the hotel to circulate in if you wish.
+                        Ideal for sit-down dinner parties and intimate family gatherings.</em></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/dining.jpg" alt="Dining Room" class="img-fluid rounded" width="450"/>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/spa.jpg" alt="Spa" class="img-fluid rounded" width="450"/>
+                    </div>
+                    <div class="col-md-8">
+                        <h4 class="title"><em>THE LARGEST SPA COMPLEX IN ISRAEL</em></h4>
+                        <p class="text"><em>The best nutrition treatments starting from firming, toning, sculpting and beauty for the body and face and ending with a radiant look. The treatment menu is structured so that you can enjoy a number of treatments, each of which is an experience in itself, for body and mind.</em></p>
+                    </div>
+                </div>
+            </div> 
+
+            <section id="features">
+                <div class="row">
+                    <div class="feature-box col-lg-4">
+                        <i class="icon fas fa-duotone fa-scroll-torah fa-2xl"></i>
+                        <h3><strong>Kosher L'mehadrin</strong></h3>
+                        <p>Under the supervision of the Rabbinate of Yavne</p>
+                    </div>
+                    <div class="feature-box col-lg-4">
+                        <i class="icon fas fa-duotone fa-baby-carriage fa-2xl"></i>
+                        <h3><strong>Baby friendly</strong></h3>
+                        <p>Rooms suitable for babies with all the necessary equipment</p>
+                    </div>
+                    <div class="feature-box col-lg-4">
+                        <i class="icon fas fa-duotone fa-paw fa-2xl"></i>
+                        <h3><strong>Quadruped friendly</strong></h3>
+                        <p>Suitable for the entry of dogs, cats and all your pets</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="feature">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/family_room.jpg" class="center-block w-50" alt="Family Room">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Family Room</h5>
+                          <p>Extra-large balcony with connecting door offers spacious comfortable surroundings.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/premium_room.jpg" class="center-block w-50" alt="Premium Room">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Premium Room</h5>
+                          <p>Extra-large balcony with spacious comfortable surroundings.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/deluxe_room.jpg" class="center-block w-50" alt="Deluxe Room">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Deluxe Room</h5>
+                          <p>Elegant, specious room with all the amneties.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+
+            <section class="white-section" id="pricing">
+                <h3 class="section-heading">Availability and rates</h3>
+                <p>Simple and affordable price plans for your and your family.</p>
+                <div class="row row-pricing">
+                    <div class="pricing-column col-lg-4 col-md-6">
+                        <div class="card">
+                          <div class="card-header">
+                            <h3>Family Room</h3>
+                          </div>
+                          <div class="card-body">
+                            <h2 class="price-text">$109</h2>
+                            <p>Double bed</p>
+                            <p>Air conditioning</p>
+                            <p>Television</p>
+                            <p>Cable Tv</p>
+                            <button class="btn btn-lg btn-block btn-dark" type="button">Select dates</button>
+                          </div>
+                        </div>
+                      </div>
+            
+                  <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3>Premium Room</h3>
+                      </div>
+                      <div class="card-body">
+                        <h2 class="price-text">$89</h2>
+                        <p>Twin bed</p>
+                        <p>Air conditioning</p>
+                        <p>Television</p>
+                        <p>Cable Tv</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Select dates</button>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3>Deluxe Room</h3>
+                      </div>
+                      <div class="card-body">
+                        <h2 class="price-text">$69</h2>
+                        <p>Queen bed</p>
+                        <p>Air conditioning</p>
+                        <p>Television</p>
+                        <p>Cable Tv</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Select dates</button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </section>            
+ 
+<%- include('partials/footer') %>
