@@ -45,6 +45,7 @@
         overflow: hidden;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        text-align: center;
     }
     
     .contact-form {
@@ -103,7 +104,8 @@
     
  .img-fluid {
     border-radius: 1rem 1rem 1rem 1rem;
-    width: 85%;
+    width: 100%;
+    height: 90%;
  }
     
     .input-contain {
@@ -169,6 +171,7 @@
         cursor: pointer;
         transition: 0.3s;
         margin: 0;
+        display: block;
     }
     
     .bigbtn:hover{
@@ -431,9 +434,39 @@
     .row {
         font-size: 0.9rem;
         padding: 1% 5%;
-        background-color: #212F3C;
+        background-color: #516272;
         width: 100%;
         color: #fff  
     }
 
+    .btn-google {
+      color: #545454;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 1px #ddd;
+}
+
+
+.or-container {
+  align-items: center;
+  color: #ccc;
+  display: flex;
+  margin: 25px 0;
+}
+
+.line-separator {
+  background-color: #ccc;
+  flex-grow: 5;
+  height: 1px;
+}
+
+.or-label {
+  flex-grow: 1;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.logtext {
+  color: #FFC323;
+  text-decoration: none;
+}
      
